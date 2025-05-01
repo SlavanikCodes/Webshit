@@ -1,0 +1,121 @@
+/* Top navigation bar */
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap");
+
+.navbar {
+    display: flex;
+    align-items: center;
+    background-color: #333;
+    padding: 20px;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    border-radius: 5px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+.navbar a:hover {
+    background-color: #575757;
+    border-radius: 5px;
+}
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #A8E6CF;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+    overflow-x: hidden;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.title {
+    text-transform: uppercase;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 8px;
+    word-spacing: 12px;
+}
+
+.snack {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    padding: 30px;
+    margin: 10px auto;
+    width: 60%;
+    justify-content: center;
+}
+
+.add-to-cart {
+    color: white;
+    background-color: black;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    border-radius: 5px;
+    font-family: 'Quicksand', sans-serif;
+}
+.add-to-cart:hover {
+    background-color: #575757;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#clear {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-family: 'Quicksand', sans-serif;
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    background-color: #333;
+    padding: 20px;
+    justify-content: center;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 1000;
+}
+.footer-content p {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-family: 'Quicksand', sans-serif;
+    overflow-wrap: anywhere;
+}
+
+
+
+
+
