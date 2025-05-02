@@ -1,3 +1,4 @@
+/* Top navigation bar */
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap");
 
 .navbar {
@@ -57,14 +58,21 @@ body {
     word-spacing: 12px;
 }
 
-.snack {
+.movie {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 20px;
     padding: 30px;
     margin: 10px auto;
-    width: 50%;
+    width: 60%;
     justify-content: center;
+}
+
+.movie img {
+    width: auto;
+    height: 350px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .add-to-cart {
@@ -83,15 +91,34 @@ body {
     cursor: pointer;
 }
 
-#clear {
-    margin-top: 10px;
+.movie-selector, .ticket-quantity {
+    margin: 20px 10px;
+    text-align: center;
+}
+
+.movie-selector label, .ticket-quantity label {
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+.movie-selector select, .ticket-quantity input {
+    font-size: 16px;
+    padding: 10px;
+    margin: 10px;
+    width: 180px;
+    text-align: center;
+}
+
+button {
     padding: 10px 20px;
-    font-family: 'Quicksand', sans-serif;
-    background-color: #ff4d4d;
-    color: white;
-    border: none;
+    font-size: 16px;
     border-radius: 5px;
     cursor: pointer;
+}
+
+#calculate-total {
+    background-color: #4CAF50;
+    color: white;
 }
 
 .footer-content {

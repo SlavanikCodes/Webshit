@@ -31,7 +31,6 @@
 }
 
 
-
 body {
     margin: 0;
     padding: 0;
@@ -57,41 +56,21 @@ body {
     word-spacing: 12px;
 }
 
-.snack {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 20px;
-    padding: 30px;
-    margin: 10px auto;
-    width: 50%;
-    justify-content: center;
-}
-
-.add-to-cart {
-    color: white;
-    background-color: black;
+a.showback {
+    color: #333;
     text-decoration: none;
     padding: 10px 20px;
     font-size: 16px;
     transition: background-color 0.3s ease;
     border-radius: 5px;
+    margin: 0 20px;
+    background-color: white;
     font-family: 'Quicksand', sans-serif;
 }
-.add-to-cart:hover {
+a:hover.showback {
     background-color: #575757;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-#clear {
-    margin-top: 10px;
-    padding: 10px 20px;
-    font-family: 'Quicksand', sans-serif;
-    background-color: #ff4d4d;
     color: white;
-    border: none;
     border-radius: 5px;
-    cursor: pointer;
 }
 
 .footer-content {
@@ -113,8 +92,6 @@ body {
     font-family: 'Quicksand', sans-serif;
     overflow-wrap: anywhere;
 }
-
-
 
 
 
